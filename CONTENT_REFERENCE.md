@@ -104,7 +104,7 @@ Microbial, human, mouse 유전체 데이터를 통합하고 통계·머신러닝
 | 구분 | 이름 | 현재 사이트 표기 |
 | --- | --- | --- |
 | Principal Investigator | 신선 | 교수 |
-| Research Faculty | 조혜선 | 연구계약교원 |
+| Postdoctoral Researcher | 조혜선 | 포스닥 |
 | Graduate Student | 손승한 | 박사과정 |
 | Graduate Student | 정호선 | 박사과정 |
 | Graduate Student | 이은지 | 석사과정 |
