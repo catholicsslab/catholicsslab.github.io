@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://catholicsslab.github.io/sitemap.xml
