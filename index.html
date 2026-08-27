@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="가톨릭대학교 의과대학 신선 SS Lab(질병유전체연구실). 단일세포 유전체학, 마이크로바이옴, miRNA 바이오마커 및 통합 생명정보학 연구." />
+    <meta name="keywords" content="SS Lab, 질병유전체연구실, 신선, single-cell RNA sequencing, microbiome, miRNA biomarker, bioinformatics" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>SS Lab | 질병유전체연구실</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <link rel="stylesheet" href="./site.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./site.js" defer></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "Pretendard Variable", Pretendard, system-ui, sans-serif;
+        --color-ink: #101936;
+        --color-brand: #304ee9;
+        --color-violet: #7138ea;
+        --color-mist: #f6f7ff;
+      }
+    </style>
+  </head>
+  <body class="bg-white font-sans antialiased" data-page="home">
+    <div id="site-header-mount"></div>
+
+    <main id="main-content">
+      <section class="relative isolate min-h-[650px] overflow-hidden border-b border-indigo-100/60 sm:min-h-[680px]">
+        <div class="hero-art absolute inset-0 -z-20" aria-hidden="true"></div>
+        <div class="absolute inset-0 -z-10 bg-gradient-to-b from-white/96 via-white/92 to-white/38 md:bg-gradient-to-r md:from-white md:via-white/90 md:to-white/5" aria-hidden="true"></div>
+        <div class="mx-auto flex min-h-[650px] max-w-[1440px] items-start px-5 pb-72 pt-20 sm:min-h-[680px] sm:px-8 sm:pb-64 sm:pt-24 lg:items-center lg:px-12 lg:pb-12 lg:pt-4">
+          <div class="max-w-[700px] lg:w-[53%]">
+            <p class="reveal text-xs font-extrabold tracking-[0.18em] text-brand sm:text-sm">THE CATHOLIC UNIVERSITY OF KOREA</p>
+            <p class="reveal mt-3 text-base font-bold text-slate-500">SS Lab · 질병유전체연구실</p>
+            <h1 class="reveal reveal-delay-1 mt-6 text-[43px] font-extrabold leading-[1.1] tracking-[-0.05em] text-ink sm:text-[58px] lg:text-[67px]">
+              유전체 데이터로 질병의 변화를 읽고,
+              <span class="text-gradient">진단과 치료의 단서</span>를 찾습니다.
+            </h1>
+            <p class="reveal reveal-delay-2 mt-7 max-w-[620px] text-[16px] font-medium leading-8 text-slate-600 sm:text-lg">
+              인간과 미생물의 유전체·전사체 데이터를 통합 분석하여 질병 미세환경,
+              치료 반응, 여성 건강에 관련된 바이오마커를 연구합니다.
+            </p>
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a href="./research.html" class="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-violet-600 px-6 py-3.5 text-sm font-extrabold text-white shadow-xl shadow-indigo-200 transition hover:-translate-y-0.5">
+                연구 분야 보기
+                <svg class="h-4 w-4" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              </a>
+              <a href="./publications.html" class="inline-flex items-center justify-center rounded-full border border-indigo-200 bg-white/85 px-6 py-3.5 text-sm font-extrabold text-indigo-700 backdrop-blur transition hover:bg-indigo-50">주요 논문 보기</a>
+              <a href="./join.html" class="inline-flex items-center justify-center rounded-full px-5 py-3.5 text-sm font-extrabold text-slate-600 transition hover:text-brand">모집 안내</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white py-16 sm:py-20">
+        <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-12">
+          <div class="grid gap-5 md:grid-cols-3">
+            <a href="./research.html" class="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-indigo-200 hover:shadow-xl hover:shadow-indigo-100/60">
+              <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-lg font-extrabold text-blue-600">01</span>
+              <h2 class="mt-6 text-xl font-extrabold tracking-[-0.025em] text-ink">Research Focus</h2>
+              <p class="mt-3 text-sm leading-7 text-slate-600">단일세포, 마이크로바이옴, miRNA 바이오마커와 통합 생명정보학 연구를 살펴보세요.</p>
+              <span class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-brand">자세히 보기 <span class="transition group-hover:translate-x-1">→</span></span>
+            </a>
+            <a href="./people.html" class="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-violet-200 hover:shadow-xl hover:shadow-violet-100/60">
+              <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-violet-50 text-lg font-extrabold text-violet-600">02</span>
+              <h2 class="mt-6 text-xl font-extrabold tracking-[-0.025em] text-ink">People</h2>
+              <p class="mt-3 text-sm leading-7 text-slate-600">임상과 유전체 데이터를 연결해 질병을 연구하는 연구책임자와 구성원을 소개합니다.</p>
+              <span class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-violet">구성원 보기 <span class="transition group-hover:translate-x-1">→</span></span>
+            </a>
+            <a href="./join.html" class="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-teal-200 hover:shadow-xl hover:shadow-teal-100/60">
+              <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-teal-50 text-lg font-extrabold text-teal-600">03</span>
+              <h2 class="mt-6 text-xl font-extrabold tracking-[-0.025em] text-ink">Join Our Lab</h2>
+              <p class="mt-3 text-sm leading-7 text-slate-600">유전체·전사체와 임상 데이터로 새로운 질문에 도전할 대학원생을 기다립니다.</p>
+              <span class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-teal-600">모집 안내 보기 <span class="transition group-hover:translate-x-1">→</span></span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer-mount"></div>
+  </body>
+</html>

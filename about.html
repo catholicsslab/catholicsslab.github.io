@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="질병유전체연구실의 연구 철학과 연구책임자 신선 소개." />
+    <title>About | SS Lab</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <link rel="stylesheet" href="./site.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./site.js" defer></script>
+    <style type="text/tailwindcss">@theme { --font-sans: "Pretendard Variable", Pretendard, system-ui, sans-serif; --color-ink: #101936; --color-brand: #304ee9; --color-violet: #7138ea; --color-mist: #f6f7ff; }</style>
+  </head>
+  <body class="bg-white font-sans antialiased" data-page="about">
+    <div id="site-header-mount"></div>
+    <main id="main-content">
+      <section class="subpage-hero">
+        <div class="subpage-hero-inner">
+          <p class="subpage-kicker">ABOUT SS LAB</p>
+          <h1 class="subpage-title">연구실 소개</h1>
+          <p class="subpage-description">임상·유전체 데이터를 연결해 질병의 기전을 이해하고, 실제 의료에 활용할 수 있는 바이오마커를 연구합니다.</p>
+        </div>
+      </section>
+
+      <section class="py-20 sm:py-24">
+        <div class="mx-auto grid max-w-[1320px] gap-12 px-5 sm:px-8 lg:grid-cols-12 lg:gap-16 lg:px-12">
+          <div class="lg:col-span-5">
+            <p class="text-xs font-bold tracking-[0.18em] text-brand">OUR APPROACH</p>
+            <h2 class="mt-4 text-3xl font-extrabold leading-tight tracking-[-0.035em] text-ink sm:text-4xl">실험, 임상, 계산 과학을 하나의 연구 흐름으로</h2>
+          </div>
+          <div class="lg:col-span-7">
+            <p class="text-xl font-semibold leading-9 tracking-[-0.02em] text-slate-800">질병의 발생과 진행은 하나의 유전자나 세포만으로 설명할 수 없습니다.</p>
+            <p class="mt-6 text-base leading-8 text-slate-600">질병유전체연구실은 metagenomics, WES/WTS, single-cell RNA sequencing, 16S rRNA sequencing, WMGS 등 다양한 오믹스 데이터를 분석합니다. 통계와 머신러닝을 활용해 서로 다른 데이터에서 질병 관련 신호를 찾고, 환자의 치료 반응과 예후를 설명할 수 있는 모델로 발전시킵니다.</p>
+            <div class="mt-9 flex flex-wrap gap-2.5">
+              <span class="rounded-full bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">Single-cell RNA-seq</span>
+              <span class="rounded-full bg-violet-50 px-4 py-2 text-sm font-bold text-violet-700">Metagenomics</span>
+              <span class="rounded-full bg-cyan-50 px-4 py-2 text-sm font-bold text-cyan-700">WES / WTS</span>
+              <span class="rounded-full bg-pink-50 px-4 py-2 text-sm font-bold text-pink-700">miRNA profiling</span>
+              <span class="rounded-full bg-teal-50 px-4 py-2 text-sm font-bold text-teal-700">Machine learning</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="paper-grid border-y border-indigo-100/70 bg-mist py-20 sm:py-24">
+        <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-12">
+          <div class="grid overflow-hidden rounded-[30px] border border-white bg-white shadow-[0_24px_70px_rgba(48,78,233,0.10)] lg:grid-cols-[0.72fr_1.28fr]">
+            <div class="relative flex min-h-[330px] items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 p-10 text-white">
+              <div class="absolute -right-16 -top-16 h-52 w-52 rounded-full border border-white/15"></div>
+              <div class="absolute -bottom-20 -left-12 h-64 w-64 rounded-full border border-white/10"></div>
+              <div class="relative text-center">
+                <img src="./신선%20교수님.jpg" alt="신선" class="mx-auto h-40 w-32 rounded-[24px] border-4 border-white/20 object-cover object-[center_28%] shadow-2xl" />
+                <p class="mt-5 text-2xl font-extrabold">신선, M.D., Ph.D.</p>
+                <p class="mt-2 text-sm font-medium text-blue-100">Sun Shin</p>
+                <p class="mt-1 text-sm text-blue-100/70">Principal Investigator</p>
+              </div>
+            </div>
+            <div class="p-7 sm:p-10 lg:p-14">
+              <p class="text-xs font-bold tracking-[0.18em] text-brand">PRINCIPAL INVESTIGATOR</p>
+              <h2 class="mt-4 text-3xl font-extrabold tracking-[-0.035em] text-ink">임상적 질문을 유전체 데이터로 풀어냅니다.</h2>
+              <p class="mt-6 text-base leading-8 text-slate-600">연구책임자는 임상 정보와 유전체 데이터를 통합하여 질병의 진행과 염증 반응, 전이, 숙주-미생물 상호작용을 연구합니다. 주요 관심 분야는 유전체 진화, 돌연변이와 유전자 발현, 단일세포 시퀀싱, host-microbiota multiomics이며, 데이터 기반 연구 결과를 임상적으로 활용 가능한 표적과 바이오마커로 연결하는 것을 목표로 합니다.</p>
+              <dl class="mt-8 grid gap-4 border-t border-slate-200 pt-7 sm:grid-cols-2">
+                <div><dt class="text-xs font-bold text-slate-400">EDUCATION</dt><dd class="mt-2 text-sm leading-6 text-slate-700">KAIST 화학과 학사<br />가톨릭대학교 의학과 M.D.<br />가톨릭대학교 Ph.D.</dd></div>
+                <div><dt class="text-xs font-bold text-slate-400">AFFILIATION</dt><dd class="mt-2 text-sm leading-6 text-slate-700">가톨릭대학교 의과대학 의과학과<br />Principal Investigator</dd></div>
+              </dl>
+              <a href="./people.html" class="mt-8 inline-flex items-center gap-2 text-sm font-extrabold text-brand">연구실 구성원 보기 <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer-mount"></div>
+  </body>
+</html>

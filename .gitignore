@@ -1,0 +1,8 @@
+# Windows and macOS metadata
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# Local preview and editor files
+.vscode/
+*.log
