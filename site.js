@@ -33,11 +33,11 @@ if (headerMount) {
     <a class="skip-link" href="#main-content">본문으로 바로가기</a>
     <header class="site-header" id="site-header">
       <div class="header-inner">
-        <a class="brand-link" href="./index.html" aria-label="SS Lab 질병유전체연구실 홈">
+        <a class="brand-link" href="./index.html" aria-label="SS Lab Translational Genomics Laboratory 홈">
           <img class="brand-mark" src="./logo-mark.svg" alt="" />
           <span>
             <span class="brand-name"><span class="brand-name-accent">SS</span> Lab</span>
-            <span class="brand-subtitle">질병유전체연구실</span>
+            <span class="brand-subtitle">Translational Genomics Laboratory</span>
           </span>
         </a>
         <nav class="desktop-nav" aria-label="주요 메뉴">
@@ -91,14 +91,14 @@ if (footerMount) {
   footerMount.innerHTML = `
     <footer class="site-footer">
       <div class="footer-inner">
-        <a class="brand-link" href="./index.html" aria-label="SS Lab 질병유전체연구실 홈">
+        <a class="brand-link" href="./index.html" aria-label="SS Lab Translational Genomics Laboratory 홈">
           <img class="brand-mark" src="./logo-mark.svg" alt="" />
           <span>
             <span class="brand-name"><span class="brand-name-accent">SS</span> Lab</span>
-            <span class="brand-subtitle">가톨릭대학교 의과대학 의과학과</span>
+            <span class="brand-subtitle">Translational Genomics Laboratory</span>
           </span>
         </a>
-        <p class="footer-copy">© ${new Date().getFullYear()} SS Lab · 질병유전체연구실.<br />The Catholic University of Korea.</p>
+        <p class="footer-copy">© ${new Date().getFullYear()} SS Lab · 질병유전체연구실.<br />Translational Genomics Laboratory · The Catholic University of Korea.</p>
       </div>
     </footer>`;
 }
