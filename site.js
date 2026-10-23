@@ -44,7 +44,7 @@ if (headerMount) {
           ${desktopLinks}
         </nav>
         <a class="header-cta" href="./join.html">
-          대학원생 모집
+          지원 문의
           <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="메뉴 열기">
